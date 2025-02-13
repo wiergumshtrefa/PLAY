@@ -1,13 +1,6 @@
-ul { 
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-} 
-ul li { 
-    position: relative; 
-    margin: 0 15px; 
-    background-color: rgb(145, 145, 145); 
-    color: white; 
-    font-size: 20px; 
+button {
+    height: 100px;
+    width: 300px;
+    margin: 400px;
+    padding: 100px;
 }
