@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#hangman-display {
+    margin: 20px;
+    font-size: 48px;
+}
+
+#guess-container input {
+    width: 50px;
+}

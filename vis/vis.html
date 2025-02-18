@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Виселица</title>
+    <link rel="stylesheet" href="vis.css">
 </head>
 <body>
-    
+    <h1>Игра Виселица</h1>
+    <div id="category-selection">
+        <label for="category">Выберите категорию:</label>
+        <select id="category">
+            <option value="animals">Животные</option>
+            <option value="cities">Города</option>
+            <option value="movies">Фильмы</option>
+        </select>
+    </div>
+    <div id="word-container"></div>
+    <div id="hangman-display"></div>
+    <div id="guess-container">
+        <input type="text" id="letter-input" maxlength="1">
+        <button id="guess-button">Угадать</button>
+    </div>
+    <div id="remaining-attempts"></div>
+        
+    <script src="script.js"></script>
 </body>
 </html>
