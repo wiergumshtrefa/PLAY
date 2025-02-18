@@ -1,6 +1,8 @@
 body {
+    background: linear-gradient(red, black);
     font-family: Arial, sans-serif;
     text-align: center;
+    height: 1000px;
 }
 
 #hangman-display {
